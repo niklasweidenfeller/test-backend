@@ -20,6 +20,7 @@ public class MovieController {
     List<String> all() {
         List<String> movies = new ArrayList<String>();
         movies.add("Harry Potter");
+        movies.add("Star Wars");
         return movies;
     }
   
